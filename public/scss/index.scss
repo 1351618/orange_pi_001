@@ -1,0 +1,29 @@
+@use "./reset";
+@use "./root";
+
+body {
+  background-color: #c4c4c4;
+  padding: var(--padding);
+}
+
+section {
+  border: 2px solid var(--borderColor);
+  border-radius: var(--borderRadius);
+  padding: var(--padding);
+  background-color: #00ffe529;
+}
+
+.wifi {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  gap: var(--gap);
+}
+.wifi-Btns {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--gap);
+  button {
+    width: 100%;
+  }
+}
